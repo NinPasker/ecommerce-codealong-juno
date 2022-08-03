@@ -32,10 +32,22 @@ a {
         padding: 15px 30px;
 
         &:hover,
-        &focus {
+        &:focus {
             background-color: $primaryText;
             color: $solidWhite;
             border: 2px solid $solidWhite;
+        }
+    }
+
+    &.secondaryButton {
+        background-color: $primaryText;
+        color: $solidWhite;
+
+        &:hover,
+        &:focus {
+            background-color: $solidWhite;
+            color: $primaryText;
+            border: 2px solid $primaryText;
         }
     }
 }

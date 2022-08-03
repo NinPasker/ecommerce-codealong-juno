@@ -328,3 +328,43 @@ a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+a {
+  display: inline-block;
+}
+a.button {
+  border: 2px solid #084b6d;
+  font-size: 14px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 15px 30px;
+}
+a.button:hover, a.buttonfocus {
+  background-color: #084b6d;
+  color: #fff;
+  border: 2px solid #fff;
+}

@@ -522,6 +522,32 @@ header .headerContentContainer {
   margin-bottom: 20px;
 }
 
+.play {
+  background-image: url(../assets/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+.play .playContainer {
+  background-color: #fff;
+  border: 20px solid #f4fcff;
+  max-width: 600px;
+  padding: 70px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 footer {
   background-color: #084b6d;
   color: #fff;

@@ -25,20 +25,6 @@ button {
 a {
     display: inline-block;
 
-    &.button {
-        border: 2px solid $primaryText;
-        @include fontSize(14);
-        font-weight: bold;
-        padding: 15px 30px;
-
-        &:hover,
-        &:focus {
-            background-color: $primaryText;
-            color: $solidWhite;
-            border: 2px solid $solidWhite;
-        }
-    }
-
     &.secondaryButton {
         background-color: $primaryText;
         color: $solidWhite;
@@ -49,5 +35,21 @@ a {
             color: $primaryText;
             border: 2px solid $primaryText;
         }
+    }
+}
+
+.button {
+    border: 2px solid $primaryText;
+    @include fontSize(14);
+    font-weight: bold;
+    padding: 15px 30px;
+    color: $primaryText;
+    transition: 0.3s;
+    
+    &:hover,
+    &:focus {
+        background-color: $primaryText;
+        color: $solidWhite;
+        border: 2px solid $solidWhite;
     }
 }
